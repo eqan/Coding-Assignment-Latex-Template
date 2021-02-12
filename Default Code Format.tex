@@ -1,0 +1,149 @@
+\documentclass[
+	12pt, % Default font size, values between 10pt-12pt are allowed
+	%letterpaper, % Uncomment for US letter paper size
+	%spanish, % Uncomment for Spanish
+]{fphw}
+
+% Template-specific packages
+\usepackage[utf8]{inputenc} % Required for inputting international characters
+\usepackage[T1]{fontenc} % Output font encoding for international characters
+\usepackage{mathpazo} % Use the Palatino font
+
+\usepackage{graphicx} % Required for including images
+
+\usepackage{booktabs} % Required for better horizontal rules in tables
+
+\usepackage{listings} % Required for insertion of code \usepackage{enumerate} % To modify the enumerate environment
+
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage[dvipsnames]{xcolor} %frame color
+\usepackage{framed} % for defining framed environment
+%----------------------------------------------------------------------------------------
+%	Format
+%----------------------------------------------------------------------------------------
+\newenvironment{formal}{
+ \def\FrameCommand{{\color{YellowOrange}\vrule width 2pt}\hspace{2pt}}
+ \MakeFramed{\advance\hsize-\width}
+ \vspace{2pt}\noindent\hspace{-7pt}\vspace{3pt}
+}{\vspace{3pt}\endMakeFramed}
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+%----------------------------------------------------------------------------------------
+%	ASSIGNMENT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\title{Assignment \#3} % Assignment title
+
+\author{Eqan Ahmad\\
+  19F0256
+} % Student name
+
+
+\institute{National University \\ Of Computer Science And Technology} % Institute or school name
+
+\class{Data Structures(CS 218)} % Course or class name
+
+\professor{Dr Hashim Yasin} % Professor or teacher in charge of the assignment
+
+%----------------------------------------------------------------------------------------
+%	Document Content
+%----------------------------------------------------------------------------------------
+\begin{document}
+\maketitle{}
+\section*{Question 1 }
+\subsection*{\centering{Terminal Color Scheme}}
+\lstinputlisting[language=C++]{colormod.h}
+\subsection*{\centering{C++ Custom Shell}}
+\lstinputlisting[language=C++]{C++Shell.h}
+\clearpage
+\subsection*{\centering{Header File}}
+\lstinputlisting[language=C++]{DSCourse3-Q1.h}
+\clearpage
+\subsection*{\centering{CPP File}}
+\lstinputlisting[language=C++]{DSCourse3-Q1v2.cpp}
+\clearpage
+\subsection*{\centering{Main File}}
+\lstinputlisting[language=C++]{DSCourse3-Q1Main.cpp}
+ \begin{formal}
+ {\bf Note}
+	This program is specifically made for Unix/Linux command line, As a linux User i wanted to integrate shell like commands into my
+	 program and my drive was enough to combine some fresh colorschemes with Bash Like commands into this program.\\
+ \end{formal}
+\begin{figure}[!htb]
+  \includegraphics[width=\linewidth]{1.png}
+  \caption{ScreenShot}
+\end{figure}
+\begin{figure}[!htb]
+  \includegraphics[width=\linewidth]{2.png}
+  \caption{ScreenShot}
+\end{figure}
+\begin{figure}[!htb]
+  \includegraphics[width=\linewidth]{3.png}
+  \caption{ScreenShot}
+\end{figure}
+\begin{figure}[!htb]
+  \includegraphics[width=\linewidth]{4.png}
+  \caption{ScreenShot}
+\end{figure}
+\begin{figure}[!htb]
+  \includegraphics[width=\linewidth]{5.png}
+  \caption{ScreenShot}
+\end{figure}
+\begin{figure}[!htb]
+  \includegraphics[width=\linewidth]{6.png}
+  \caption{ScreenShot}
+\end{figure}
+\begin{figure}[!htb]
+  \includegraphics[width=\linewidth]{7.png}
+  \caption{ScreenShot}
+\end{figure}
+\begin{figure}[!htb]
+  \includegraphics[width=\linewidth]{8.png}
+  \caption{ScreenShot}
+\end{figure}
+\begin{figure}[!htb]
+  \includegraphics[width=\linewidth]{9.png}
+  \caption{ScreenShot}
+\end{figure}
+\begin{figure}[!htb]
+  \includegraphics[width=\linewidth]{10.png}
+  \caption{ScreenShot}
+\end{figure}
+\begin{figure}[!htb]
+  \includegraphics[width=\linewidth]{11.png}
+  \caption{ScreenShot}
+\end{figure}
+\begin{figure}[!htb]
+  \includegraphics[width=\linewidth]{12.png}
+  \caption{ScreenShot}
+\end{figure}
+\begin{figure}[!htb]
+  \includegraphics[width=\linewidth]{13.png}
+  \caption{ScreenShot}
+\end{figure}
+\clearpage
+\end{document}
